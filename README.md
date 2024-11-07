@@ -29,7 +29,7 @@ terraform-aws-practice/
 │   ├── vpc-ec2/
 │   └── vpc-ec2-rds/
 └── modules/
-
+```
 
 ## 📂 Folder Descriptions
 
@@ -99,22 +99,23 @@ To interact with Terraform, use the following commands:
    Run this command to initialize the working directory and download required providers:
    ```bash
    terraform init
+   ```
 
 2. **Preview Changes (Plan):
    Preview the infrastructure changes that Terraform will make:
    ```bash
    terraform plan
-
+    ```
 3. Apply Changes:
    Apply the infrastructure changes to your AWS account:
     ```bash
     terraform apply
-
+    ```
 4. Destroy Resources:
     Destroy the resources created by Terraform:
     ```bash
     terraform destroy
-
+    ```
 ### *** Usage Notes : ***
     Test each folder individually: Navigate to each folder and run terraform apply to test configurations.
     Modify configurations: Use the variables.tf or .tfvars files to tweak parameters and see how changes impact resources.
