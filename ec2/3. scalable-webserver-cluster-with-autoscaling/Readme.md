@@ -1,5 +1,7 @@
 # Scalable Web Server Cluster with Application Load Balancer and Auto Scaling
 
+![Architecture of a scalable web server](./images/Architecture%20of%20a%20scalable%20web%20server.webp)  
+
 ## Project Overview
 
 This project sets up a highly available and scalable web server infrastructure using AWS. It provisions a cluster of EC2 instances running a web application, with **Auto Scaling** to manage dynamic traffic and an **Application Load Balancer (ALB)** to distribute requests across instances. Logging and monitoring are enabled for improved observability.

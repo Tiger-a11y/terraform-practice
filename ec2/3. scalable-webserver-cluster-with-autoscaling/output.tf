@@ -1,4 +1,11 @@
-output "nginx_server_public_ip" {
-  description = "Nginx server public ip"
-  value = aws_instance.nginx_server.public_ip
+output "alb_dns_name" {
+  value = aws_lb.main.dns_name
+}
+
+output "instance_ids" {
+  value = aws_autoscaling_group.nginx_asg.instance_ids
+}
+
+output "s3_bucket_name" {
+  value = aws_s3_bucket.alb_logs.bucket
 }
