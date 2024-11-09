@@ -35,7 +35,7 @@ This project sets up a highly available and scalable web server infrastructure u
 
 ### Architecture Diagram
 
-![Architecture Diagram](./images/scalable-web-server-cluster-diagram.png)  
+![Architecture Diagram](./images/flowchart%201.drawio.svg)  
 *Diagram: Infrastructure layout of the scalable web server cluster.*
 
 ---
