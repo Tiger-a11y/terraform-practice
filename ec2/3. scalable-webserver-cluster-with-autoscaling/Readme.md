@@ -29,6 +29,8 @@ This project creates a highly available, scalable web application infrastructure
 
 4. **Security Group**: A security group is defined to allow necessary inbound and outbound traffic, specifically allowing HTTP (80), HTTPS (443), and SSH (22) access.
 
+
+![Infrastructure](./images/flowchart%201.drawio.svg) 
 ---
 
 ## Implementation Details (Terraform)
