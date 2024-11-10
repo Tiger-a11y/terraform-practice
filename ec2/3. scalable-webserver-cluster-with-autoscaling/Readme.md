@@ -121,3 +121,9 @@ This project sets up a highly available and scalable web server infrastructure u
 - **Advanced Monitoring:** Integrate with AWS CloudWatch Alarms to alert on high CPU or request thresholds, ensuring proactive scaling.
 - **SSL/TLS Certificates:** Configure HTTPS with an SSL/TLS certificate for secure traffic encryption.
 - **Database Integration:** Add an RDS or DynamoDB instance to store persistent data, allowing the web servers to handle more complex application requirements.
+
+*** Feel free to open issues or contribute to improve the project! ***
+
+- Avinash Wagh
+- LinkedIn: [www.linkedin.com/in/avinash-wagh101]
+- [GitHub:](https://github.com/Tiger-a11y/terraform-practice/tree/main/ec2/3. scalable-webserver-cluster-with-autoscaling)
