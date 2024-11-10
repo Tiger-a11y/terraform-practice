@@ -11,7 +11,8 @@ This project automates the deployment of a **Jenkins CI/CD Server** on an **EC2 
 - **Security Best Practices**: Uses IAM roles, security groups, and VPC for secure access and minimal risk exposure.
 
 ---
-### Architecture Diagram
+
+## 🏗️ Architecture Diagram
 
 ![Architecture Diagram](./assets/jenkins%20server.jpg)  
 *Diagram: Infrastructure layout of the Jenkins CI/CD Server on EC2 with Backup and Monitoring.*
@@ -74,23 +75,6 @@ With the migration to AWS, **Jenkins** is deployed on an **EC2 instance** with f
 
 ---
 
-## 🏗️ Architecture Diagram
-
-```mermaid
-graph TD
-    A[EC2 Instance (Jenkins Server)] --> B[EBS Volume]
-    B --> C[EBS Snapshot (Automated Backup)]
-    A --> D[Elastic IP]
-    A --> E[CloudWatch Monitoring]
-    A --> F[CloudWatch Logs]
-    F --> G[CloudWatch Alarms]
-    G --> H[SNS Notifications]
-    E --> I[Lambda (Snapshot Automation)]
-    E --> J[S3 Backup Storage]
-    D --> K[Public Access]
-    I --> L[EBS Snapshot Permissions]
-    K --> M[Jenkins Access]
-```
 ## Terraform Resources
 This project uses **Terraform** to provision the necessary AWS resources. Key resources include:
 - `aws_instance`: Deploys the EC2 instance for Jenkins, providing the server infrastructure.
