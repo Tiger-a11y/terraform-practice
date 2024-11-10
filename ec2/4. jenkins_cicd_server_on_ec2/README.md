@@ -121,7 +121,7 @@ Before deploying this project, ensure that you have the following:
 - This project is licensed under the MIT License - see the LICENSE file for details.
 
 - Avinash Wagh
-- [LinkedIn:](www.linkedin.com/in/avinash-wagh101)
-- [GitHub:](https://github.com/Tiger-a11y/terraform-practice/tree/main/ec2/4. jenkins_cicd_server_on_ec2)
+- LinkedIn : [avinash-wagh101](www.linkedin.com/in/avinash-wagh101)
+- Github : [Tiger-a11y](https://github.com/Tiger-a11y/terraform-practice/tree/main/ec2/4. jenkins_cicd_server_on_ec2)
 
 *** Feel free to open issues or contribute to improve the project! ***
