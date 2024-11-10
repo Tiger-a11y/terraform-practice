@@ -124,6 +124,6 @@ This project sets up a highly available and scalable web server infrastructure u
 
 *** Feel free to open issues or contribute to improve the project! ***
 
-- **Contact**
+**Contact**
 - **LinkedIn** : [avinash-wagh101](www.linkedin.com/in/avinash-wagh101)
 - **Github**: [Tiger-a11y](https://github.com/Tiger-a11y/terraform-practice/tree/main/ec2/3.%20scalable-webserver-cluster-with-autoscaling)
