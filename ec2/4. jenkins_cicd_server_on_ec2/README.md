@@ -11,6 +11,12 @@ This project automates the deployment of a **Jenkins CI/CD Server** on an **EC2 
 - **Security Best Practices**: Uses IAM roles, security groups, and VPC for secure access and minimal risk exposure.
 
 ---
+### Architecture Diagram
+
+![Architecture Diagram](./assets/jenkins%20server.jpg)  
+*Diagram: Infrastructure layout of the Jenkins CI/CD Server on EC2 with Backup and Monitoring.*
+
+---
 
 ## 🛠️ Project Objectives
 
